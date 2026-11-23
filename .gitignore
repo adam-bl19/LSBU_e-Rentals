@@ -1,0 +1,23 @@
+# Secrets: never commit the real .env
+.env
+.env.local
+.env.*.local
+
+# Word / Office lock and temp files
+~$*
+*.tmp
+
+# SQL Server artefacts
+*.mdf
+*.ldf
+*.bak
+
+# Power BI local cache
+*.pbix.bak
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
